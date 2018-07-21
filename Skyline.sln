@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.System", "Skyline.Core.System\Skyline.Core.System.csproj", "{D959DF83-4EDD-4C91-B63D-8E1906F4D354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Core.System", "Skyline.Core.System\Skyline.Core.System.csproj", "{D959DF83-4EDD-4C91-B63D-8E1906F4D354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.Consul", "Skyline.Core.Consul\Skyline.Core.Consul.csproj", "{1FA1F46D-4BD2-4DD4-9F3A-AAAA77D3BFAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Core.Consul", "Skyline.Core.Consul\Skyline.Core.Consul.csproj", "{1FA1F46D-4BD2-4DD4-9F3A-AAAA77D3BFAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.GRpc", "Skyline.Core.Grpc\Skyline.Core.GRpc.csproj", "{6570FA59-64F3-437D-B536-E0A39B2C253D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Core.GRpc", "Skyline.Core.Grpc\Skyline.Core.GRpc.csproj", "{6570FA59-64F3-437D-B536-E0A39B2C253D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.Common", "Skyline.Core.Common\Skyline.Core.Common.csproj", "{5FFE7D11-64BB-4055-91A2-43DAA5F8BF3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Core.Common", "Skyline.Core.Common\Skyline.Core.Common.csproj", "{5FFE7D11-64BB-4055-91A2-43DAA5F8BF3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.Nlog", "System.Core.Nlog\Skyline.Core.Nlog.csproj", "{2E7EDB09-978B-4C74-8B7C-758936272C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Core.Nlog", "System.Core.Nlog\Skyline.Core.Nlog.csproj", "{2E7EDB09-978B-4C74-8B7C-758936272C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.Ocelot", "Skyline.Core.Ocelot\Skyline.Core.Ocelot.csproj", "{26652671-9220-4A31-8DE0-851EDA0908A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Core.IdentityServer", "Skyline.Core.IdentityServer\Skyline.Core.IdentityServer.csproj", "{D1FA265D-2287-4727-A86F-56C4A0185F66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Core.IdentityServer", "Skyline.Core.IdentityServer\Skyline.Core.IdentityServer.csproj", "{D1FA265D-2287-4727-A86F-56C4A0185F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Service.Client", "Skyline.Service.Client\Skyline.Service.Client.csproj", "{69321201-3F70-4A44-8CDA-BFD674C89E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Service.Client", "Skyline.Service.Client\Skyline.Service.Client.csproj", "{69321201-3F70-4A44-8CDA-BFD674C89E72}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Service.Server", "Skyline.Service.Server\Skyline.Service.Server.csproj", "{9F4C0443-A5CE-454C-8D55-E3842778DA16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Service.Server", "Skyline.Service.Server\Skyline.Service.Server.csproj", "{9F4C0443-A5CE-454C-8D55-E3842778DA16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline.Core", "Skyline.Core", "{6A560BD7-10F3-4843-AD8C-B6D032B06CD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.ApiGateway", "Skyline.Gateway\Skyline.ApiGateway.csproj", "{619990D9-276A-4BED-A45B-6F0442F23CC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +49,6 @@ Global
 		{2E7EDB09-978B-4C74-8B7C-758936272C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E7EDB09-978B-4C74-8B7C-758936272C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E7EDB09-978B-4C74-8B7C-758936272C34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26652671-9220-4A31-8DE0-851EDA0908A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26652671-9220-4A31-8DE0-851EDA0908A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26652671-9220-4A31-8DE0-851EDA0908A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26652671-9220-4A31-8DE0-851EDA0908A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1FA265D-2287-4727-A86F-56C4A0185F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1FA265D-2287-4727-A86F-56C4A0185F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1FA265D-2287-4727-A86F-56C4A0185F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,6 +61,10 @@ Global
 		{9F4C0443-A5CE-454C-8D55-E3842778DA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F4C0443-A5CE-454C-8D55-E3842778DA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F4C0443-A5CE-454C-8D55-E3842778DA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,7 +75,6 @@ Global
 		{6570FA59-64F3-437D-B536-E0A39B2C253D} = {6A560BD7-10F3-4843-AD8C-B6D032B06CD4}
 		{5FFE7D11-64BB-4055-91A2-43DAA5F8BF3A} = {6A560BD7-10F3-4843-AD8C-B6D032B06CD4}
 		{2E7EDB09-978B-4C74-8B7C-758936272C34} = {6A560BD7-10F3-4843-AD8C-B6D032B06CD4}
-		{26652671-9220-4A31-8DE0-851EDA0908A0} = {6A560BD7-10F3-4843-AD8C-B6D032B06CD4}
 		{D1FA265D-2287-4727-A86F-56C4A0185F66} = {6A560BD7-10F3-4843-AD8C-B6D032B06CD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
