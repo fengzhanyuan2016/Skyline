@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.Service.Server", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline.Core", "Skyline.Core", "{6A560BD7-10F3-4843-AD8C-B6D032B06CD4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.ApiGateway", "Skyline.Gateway\Skyline.ApiGateway.csproj", "{619990D9-276A-4BED-A45B-6F0442F23CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyline.ApiGateway", "Skyline.ApiGateway\Skyline.ApiGateway.csproj", "{E9576FC4-693D-46AC-922E-009F90F4D98F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,10 +61,10 @@ Global
 		{9F4C0443-A5CE-454C-8D55-E3842778DA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F4C0443-A5CE-454C-8D55-E3842778DA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F4C0443-A5CE-454C-8D55-E3842778DA16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{619990D9-276A-4BED-A45B-6F0442F23CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9576FC4-693D-46AC-922E-009F90F4D98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9576FC4-693D-46AC-922E-009F90F4D98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9576FC4-693D-46AC-922E-009F90F4D98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9576FC4-693D-46AC-922E-009F90F4D98F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
