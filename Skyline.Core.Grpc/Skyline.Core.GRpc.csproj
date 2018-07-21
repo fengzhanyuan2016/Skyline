@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MagicOnion" Version="0.5.3" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Skyline.Core.Consul\Skyline.Core.Consul.csproj" />
+    <ProjectReference Include="..\Skyline.Core.System\Skyline.Core.System.csproj" />
+  </ItemGroup>
+
+</Project>
