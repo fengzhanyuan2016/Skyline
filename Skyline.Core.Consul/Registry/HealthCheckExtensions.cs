@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Skyline.Core.Consul.Registry
 {
-    class HealthCheckExtensions
+   public class HealthCheckExtensions
     {
+
     }
 }
